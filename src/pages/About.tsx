@@ -51,7 +51,7 @@ export default function About() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 glass-card p-6 rounded-xl">
-              <p className="text-4xl font-display font-bold gradient-text">6+</p>
+              <p className="text-4xl font-display font-bold gradient-text">5+</p>
               <p className="text-sm text-muted-foreground">Years Experience</p>
             </div>
           </div>

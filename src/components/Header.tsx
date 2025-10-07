@@ -81,7 +81,7 @@ export function Header() {
             </Button>
 
             <Button variant="default" size="sm" asChild>
-              <a href="mailto:artist@example.com?subject=CV Request">
+              <a href="mailto:siddraws61@gmail.com?subject=CV Request">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </a>
@@ -119,7 +119,7 @@ export function Header() {
                     </Link>
                   ))}
                   <Button variant="default" className="mt-4" asChild>
-                    <a href="mailto:artist@example.com?subject=CV Request">
+                    <a href="mailto:siddraws61@gmail.com?subject=CV Request">
                       <Download className="mr-2 h-4 w-4" />
                       Download CV
                     </a>
