@@ -64,7 +64,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:artist@example.com"
+                href="mailto:siddharthaadhikari@example.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -72,13 +72,13 @@ export function Footer() {
               </a>
             </div>
             <p className="text-muted-foreground mt-4 text-sm">
-              artist@example.com
+              siddharthaadhikari@gmail.com
             </p>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground text-sm">
-          <p>&copy; {new Date().getFullYear()} Artist Portfolio. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SidArtist Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>
