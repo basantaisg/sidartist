@@ -30,12 +30,11 @@ export default function About() {
   ];
 
   const skills = [
-    { name: 'Blender', level: 95 },
-    { name: 'Cinema 4D', level: 90 },
-    { name: 'Figma', level: 92 },
+    { name: 'Blender', level: 80 },
+    { name: 'Figma', level: 70 },
     { name: 'Photoshop', level: 87 },
-    { name: 'Substance Painter', level: 83 },
-    { name: 'Unreal Engine', level: 78 }
+    { name: 'Substance Painter', level: 90 },
+    { name: 'Unreal Engine', level: 60 }
   ];
 
   return (
@@ -65,14 +64,10 @@ export default function About() {
               </h1>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a 3D artist and animator passionate about bringing products and ideas to life through 
-              stunning visuals. With expertise spanning modeling, animation, and artistic illustration, 
-              I help brands tell their stories in vivid, memorable ways.
+              I’m a 3D artist and animator who loves turning ideas into vivid, moving stories. Whether it’s product modeling, motion design, or illustration, I focus on creating visuals that make people feel something. My goal is to help brands express their vision through art that’s both stunning and meaningful.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My work bridges technical precision with artistic vision, creating experiences that not 
-              only look beautiful but also communicate effectively. Every project is an opportunity to 
-              push creative boundaries and deliver something extraordinary.
+              My work blends technical precision with artistic expression, aiming to create visuals that don’t just look beautiful but truly connect. I see every project as a chance to explore new ideas, challenge the limits of design, and craft something that feels alive and unforgettable.
             </p>
             <Button size="lg" asChild>
               <a href="mailto:artist@example.com?subject=CV Request">
