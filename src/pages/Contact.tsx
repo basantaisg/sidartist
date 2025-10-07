@@ -52,7 +52,7 @@ export default function Contact() {
     });
 
     // Construct mailto link as fallback
-    const mailtoLink = `mailto:artist@example.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(formData.message + '\n\nFrom: ' + formData.email)}`;
+    const mailtoLink = `mailto:siddraws61@gmail.com?subject=Inquiry from ${encodeURIComponent(formData.name)}&body=${encodeURIComponent(formData.message + '\n\nFrom: ' + formData.email)}`;
     window.location.href = mailtoLink;
 
     // Reset form
@@ -99,10 +99,10 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <a
-                      href="mailto:artist@example.com"
+                      href="mailto:siddraws61@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      artist@example.com
+                      siddraws61@gmail.com
                     </a>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                   <h3 className="font-semibold mb-4">Social Media</h3>
                   <div className="flex gap-4">
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/sid_draws_/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
@@ -120,7 +120,7 @@ export default function Contact() {
                       <Instagram className="h-6 w-6 text-primary" />
                     </a>
                     <a
-                      href="https://twitter.com"
+                      href="https://x.com/S1dharthA"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
@@ -129,7 +129,7 @@ export default function Contact() {
                       <Twitter className="h-6 w-6 text-primary" />
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/sidraws/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors"
@@ -151,7 +151,7 @@ export default function Contact() {
                 feel free to reach out directly via email.
               </p>
               <Button variant="outline" asChild className="w-full">
-                <a href="mailto:artist@example.com">
+                <a href="mailto:siddraws61@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Email Me Directly
                 </a>

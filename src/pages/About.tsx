@@ -32,8 +32,6 @@ export default function About() {
   const skills = [
     { name: 'Blender', level: 95 },
     { name: 'Cinema 4D', level: 90 },
-    { name: 'After Effects', level: 88 },
-    { name: 'Premiere Pro', level: 85 },
     { name: 'Figma', level: 92 },
     { name: 'Photoshop', level: 87 },
     { name: 'Substance Painter', level: 83 },
